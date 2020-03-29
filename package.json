@@ -1,23 +1,29 @@
 {
-  "name": "chrome_ajax",
+  "name": "chrome_demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-watch": "vue-cli-service build-watch"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "core-js": "^2.6.11",
+    "element-ui": "^2.13.0",
+    "vue": "^2.6.11",
+    "vue-json-views": "^1.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "copy-webpack-plugin": "^4.6.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "vue-cli-plugin-chrome-ext": "~0.0.5",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
